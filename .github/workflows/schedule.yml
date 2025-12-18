@@ -1,3 +1,5 @@
+name: Echo Server Time Every 2 Minutes
+
 on:
   schedule:
     - cron: '*/2 * * * *'
