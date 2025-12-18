@@ -1,8 +1,8 @@
-name: Echo Server Time Every 2 Minutes
+name: Echo Server Time Every 1 Minutes
 
 on:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/1 * * * *'
 
 jobs:
   hello_world:
